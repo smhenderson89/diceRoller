@@ -1,5 +1,7 @@
 const d6 = [1, 2, 3, 4, 5, 6]
 
+// n is your number of dice you would roll for a test
+// stress is the number of stress you have
 function roll(n, stress) {
     let diceResult = [];
     let stressResult = [];
@@ -36,5 +38,8 @@ function roll(n, stress) {
     }
 
 }
+
+// modify roll(dice, stress) as needed to roll the dice you need
+// to run the program, type node index.js
 
 roll(9, 6)
